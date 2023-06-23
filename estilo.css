@@ -1,0 +1,516 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.lin, .lon {
+    color: rgb(215, 9, 9);
+    text-decoration: none;
+}
+
+.Menu{
+    display: flex;
+    list-style: none;
+    padding-left: 700px;
+    color: black;
+    
+}
+.Menu li{
+    margin: 0 10px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.banner{
+   
+    align-items:start;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    gap: 10px;
+}
+.fotoP{
+    position: absolute;
+    left: 900px;
+    top: 120px;
+    
+}
+.yo{
+    width:380px; 
+    height:368px;
+}
+
+.nombreT{
+    font-size: 52px;
+    font-style: normal;
+  
+    line-height: 61px;
+}
+.banner .descrip{
+    font-size: 22px;
+    line-height: 30px;
+}
+.banner .links{
+    display: flex;
+    list-style: none;
+    
+    
+    
+}
+.banner li{
+    
+    padding: 0 10px;
+    
+}
+
+
+.sobreMi{
+    background-color: rgb(215, 9, 9);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 64px;
+   text-align: center;
+   align-items: center;
+}
+
+.sobreMi p{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.tituloS{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+}
+.Sk{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Sk li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 3%;
+    padding: 0%;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px -6px rgba(91, 91, 91, 0.733);
+   
+}
+
+.Hobbies{
+    padding-top: 10%;
+}
+
+.hobb{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hobb li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 3%;
+    padding: 0%;
+    width: 100px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px -6px rgba(91, 91, 91, 0.733);
+   
+}
+.tituloF{
+    text-align: center;
+    align-items: center;
+
+}
+.formaciones{
+    margin-top: 50px;
+    background-color: rgb(230, 252, 254) ;
+    padding-top: 3px;
+}
+
+.formu{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.formu li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 30px 5%;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 24px 32px -8px rgba(60, 60, 60, 0.905);
+}
+.oracle{
+    width: 50%;
+}
+.udeo{
+    width: 101%;
+}
+.letras{
+    color: rgb(52, 52, 52);
+    
+    
+}
+
+.formacion{
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;  
+
+    
+}
+.formacion li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 30px 5%;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 24px 32px -8px rgba(60, 60, 60, 0.905);
+}
+.piece{
+    width: 350px;
+}
+.tituloF{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+}
+.containerExp{
+    display:flex;
+    margin: 0 auto;
+    justify-content:center;
+    align-items:center ;  
+
+    
+}
+.Experiencia{
+    margin-top: 50px;
+    
+    padding-top: 3px;
+}
+.expe li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 30px 5%;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0px 24px 32px -8px rgba(60, 60, 60, 0.905);
+}
+
+
+.boton{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 30px 5%;
+    
+   
+}
+.repo, .demo{
+    text-decoration: none;
+    color: #ff0000;
+}
+.boton1{
+    border: 0.5px solid red;
+    border-radius: 15px;
+    color: red;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 10px -8px rgba(60, 60, 60, 0.905);
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    
+}
+
+.boton2{
+    color:red;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid red;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px -8px rgba(60, 60, 60, 0.905);
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+}
+.subTitulo{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+.formul{
+    background-color: red;
+    padding-top: 10px;
+}
+.formulario{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center; 
+    background-color: #ffffff;
+    width: 500px;
+    height: 350px;
+    padding: 20px ;
+    filter: drop-shadow(0px 6px 8px #272727);
+    border-radius: 6px;
+}
+.formulario label{
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.formulario input{
+    display: block;
+    padding-top: 20px;
+    margin-top: 5px;
+    width: 80%;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #626262;
+    font-size: 20px;
+}
+.btnAceptar{
+    position:absolute;
+    left: 225px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    align-items: center;
+    border: 0.5px solid red;
+    border-radius: 15px;
+    color: red;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 10px -8px rgba(60, 60, 60, 0.905);
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+}
+.btnAceptar:hover{
+    
+    border: 0.5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+}
+
+.piePagina{
+    background-color: #ff0000;
+}
+.pie{
+    padding: 30px 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    /*header-------------------------------------------------*/
+    header{
+        background-color: rgb(241, 241, 241);
+    }
+    .Menu{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-left: 0;
+        
+    }
+    .Menu li{
+        margin: auto;
+        padding: 7px 0;
+        text-decoration: none;
+    }
+    /*seccion titulo----------------------------------*/
+    .banner{
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .fotoP{
+        position: absolute;
+        left: 50px;
+        top: 250px;
+        
+    }
+    
+    .yo{
+        width:200px; 
+        height:185px;
+    }
+    
+    .nombreT{
+        padding-top: 130px;
+        font-size: 32px;
+        font-style: normal;
+    
+        line-height: 40px;
+    }
+    .banner .descrip{
+        
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .banner .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        list-style: none;
+        line-height: 30px;
+        
+    }
+    /*-----------------experiencia-------------------------*/
+    .containerExp{
+        display:flex;
+        flex-direction: column;
+      width: auto;  
+    }
+    .Experiencia{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center ;  
+    }
+    .piece{
+        width: 200px;
+    }
+    .expe li{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        
+        
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: 0px 24px 32px -8px rgba(60, 60, 60, 0.905);
+    }
+   /*--------------------------------------------------------------------*/ 
+    .tituloF{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        text-align: center;
+    }
+    .subTitulo{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .formul{
+        background-color: red;
+        padding-top: 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center ; 
+    }
+    .formulario{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center ; 
+        padding-right: 160px;
+        width: 180px;
+        height: 400px;
+        filter: drop-shadow(0px 6px 8px #272727);
+        border-radius: 6px;
+    }
+    .formulario label{
+        display: block;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .formulario input{
+        display: block;
+        padding-right: 120px;
+        padding-top: 20px;
+        margin-top: 5px;
+        width: 30%;
+        height: 10px;
+        border-radius: 5px;
+        border: 1px solid #626262;
+        font-size: 20px;
+    }
+    .btnAceptar{
+        position:absolute;
+        left: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        align-items: center;
+        border: 0.5px solid red;
+        border-radius: 15px;
+        color: red;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 10px -8px rgba(60, 60, 60, 0.905);
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .btnAceptar:hover{
+        justify-content: right;
+        align-content: right;
+        border: 0.5px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background-color: #ff0000;
+    }
+    
+    .piePagina{
+        background-color: #ff0000;
+    }
+    .pie{
+        
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+    }
+    }
