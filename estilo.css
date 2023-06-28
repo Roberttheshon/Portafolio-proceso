@@ -12,6 +12,7 @@ body{
     text-decoration: none;
 }
 
+
 .Menu{
     display: flex;
     list-style: none;
@@ -25,18 +26,20 @@ body{
     text-decoration: none;
 }
 
-.banner{
-   
-    align-items:start;
+.containerInicio{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    
+
+}
+.containerD{
     display: flex;
     flex-direction: column;
-    padding: 64px;
-    gap: 10px;
 }
 .fotoP{
-    position: absolute;
-    left: 900px;
-    top: 120px;
+    display: flex;
+    
     
 }
 .yo{
@@ -73,7 +76,7 @@ body{
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    align-items:start;
+
     padding: 64px;
    text-align: center;
    align-items: center;
@@ -103,15 +106,16 @@ body{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    vertical-align: top;
     
 }
 .Sk li{
     display: inline-block;
     text-align: center;
-    vertical-align: top;
     margin: 0 3%;
     padding: 0%;
-    width: 100px;
+    width: 120px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0px 8px 8px -6px rgba(91, 91, 91, 0.733);
    
@@ -126,16 +130,16 @@ body{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    vertical-align: top;
     
 }
 .hobb li{
     display: inline-block;
     text-align: center;
-    vertical-align: top;
     margin: 0 3%;
     padding: 0%;
-    width: 100px;
-    background-color: rgb(247, 247, 247);
+    width: 120px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0px 8px 8px -6px rgba(91, 91, 91, 0.733);
    
@@ -146,20 +150,26 @@ body{
 
 }
 .formaciones{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(230, 252, 254) ;
-    padding-top: 3px;
+    margin-top: 50px;
+    padding: 20px;
 }
 
+
 .formu{
-    display: flex;
+    display: flex; 
     margin: 0 auto;
     justify-content: center;
     align-items: center;  
     
 }
 .formu li{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     vertical-align: top;
     margin: 30px 5%;
@@ -210,18 +220,20 @@ body{
     line-height: 32px;
     text-align: center;
 }
-.containerExp{
-    display:flex;
-    margin: 0 auto;
-    justify-content:center;
-    align-items:center ;  
-
-    
-}
 .Experiencia{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
-    
     padding-top: 3px;
+}
+
+.containerExp{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    
+   
+    
 }
 .expe li{
     display: inline-block;
@@ -235,15 +247,15 @@ body{
     box-shadow: 0px 24px 32px -8px rgba(60, 60, 60, 0.905);
 }
 
-
-.boton{
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    margin: 30px 5%;
+.containerB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
     
-   
 }
+
 .repo, .demo{
     text-decoration: none;
     color: #ff0000;
@@ -279,6 +291,10 @@ body{
     text-align: center;
 }
 .formul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: red;
     padding-top: 10px;
 }
@@ -342,175 +358,60 @@ body{
     align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     /*header-------------------------------------------------*/
     header{
         background-color: rgb(241, 241, 241);
     }
     .Menu{
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        padding-left: 0;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding-left: 0;
         
     }
     .Menu li{
         margin: auto;
         padding: 7px 0;
         text-decoration: none;
+        justify-content: center;
+       align-items: center;
     }
     /*seccion titulo----------------------------------*/
-    .banner{
-        align-items:center;
+    .containerInicio{
         display: flex;
         flex-direction: column;
-        
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 15px;
+        text-align: center;
+        width: 100%;
     }
-    .fotoP{
-        position: absolute;
-        left: 50px;
-        top: 250px;
-        
+    .containerD{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
-    
     .yo{
-        width:200px; 
-        height:185px;
+        display: flex;
+        width:300px; 
+        height:320px;
     }
     
     .nombreT{
-        padding-top: 130px;
+        display: flex;
         font-size: 32px;
         font-style: normal;
-    
-        line-height: 40px;
+      
+        line-height: 41px;
     }
     .banner .descrip{
-        
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .banner .links{
         display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        list-style: none;
-        line-height: 30px;
-        
-    }
-    /*-----------------experiencia-------------------------*/
-    .containerExp{
-        display:flex;
-        flex-direction: column;
-      width: auto;  
-    }
-    .Experiencia{
-        display:flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items:center ;  
-    }
-    .piece{
-        width: 200px;
-    }
-    .expe li{
-        display:flex;
-        flex-direction: column;
-        justify-content:center;
-        
-        
-        background-color: rgb(255, 255, 255);
-        border-radius: 10px;
-        width: 100%;
-        box-shadow: 0px 24px 32px -8px rgba(60, 60, 60, 0.905);
-    }
-   /*--------------------------------------------------------------------*/ 
-    .tituloF{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        text-align: center;
-    }
-    .subTitulo{
-        color: #ffffff;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 38px;
-        text-align: center;
-    }
-    .formul{
-        background-color: red;
-        padding-top: 10px;
-        display:flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items:center ; 
-    }
-    .formulario{
-        display:flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items:center ; 
-        padding-right: 160px;
-        width: 180px;
-        height: 400px;
-        filter: drop-shadow(0px 6px 8px #272727);
-        border-radius: 6px;
-    }
-    .formulario label{
-        display: block;
-        margin-top: 15px;
         font-size: 20px;
-    }
-    .formulario input{
-        display: block;
-        padding-right: 120px;
-        padding-top: 20px;
-        margin-top: 5px;
-        width: 30%;
-        height: 10px;
-        border-radius: 5px;
-        border: 1px solid #626262;
-        font-size: 20px;
-    }
-    .btnAceptar{
-        position:absolute;
-        left: 100px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15px;
-        align-items: center;
-        border: 0.5px solid red;
-        border-radius: 15px;
-        color: red;
-        background-color: #ffffff;
-        box-shadow: 0px 10px 10px -8px rgba(60, 60, 60, 0.905);
-        width: 100px;
-        height: 40px;
-        font-size: 16px;
-    }
-    .btnAceptar:hover{
-        justify-content: right;
-        align-content: right;
-        border: 0.5px solid rgb(255, 255, 255);
-        color: rgb(255, 255, 255);
-        background-color: #ff0000;
+        line-height: 25px;
+        
     }
     
-    .piePagina{
-        background-color: #ff0000;
-    }
-    .pie{
-        
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 11px;
-    }
+
     }
