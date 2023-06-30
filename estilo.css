@@ -356,7 +356,7 @@ body{
     align-items: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     /*header-------------------------------------------------*/
     main{
         width: auto;
@@ -397,15 +397,17 @@ body{
     }
     .yo{
         display: flex;
-        width:300px; 
-        height:320px;
+        justify-content: center;
+        align-items: center;
+        width:250px; 
+        height:300px;
     }
     
     .nombreT{
         display: flex;
         font-size: 32px;
         font-style: normal;
-        width: 90%;
+        
         line-height: 41px;
     }
     .banner .descrip{
@@ -414,11 +416,11 @@ body{
         align-items: center;
         font-size: 18px;
         line-height: 25px;
-        width: 90%;
+        
         
     }
     .banner .links{
-        width: 70%;
+        
         font-size: 15px;
         
         justify-content: center;
