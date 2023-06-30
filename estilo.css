@@ -60,9 +60,6 @@ body{
 .banner .links{
     display: flex;
     list-style: none;
-    
-    
-    
 }
 .banner li{
     
@@ -391,7 +388,7 @@ body{
     .containerD{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .yo{
@@ -404,14 +401,25 @@ body{
         display: flex;
         font-size: 32px;
         font-style: normal;
-      
+        width: 90%;
         line-height: 41px;
     }
     .banner .descrip{
         display: flex;
-        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
         line-height: 25px;
+        width: 90%;
         
+    }
+    .banner .links{
+        width: 70%;
+        font-size: 15px;
+        
+        justify-content: center;
+        align-items: center;
+        list-style: none;
     }
     /*----------------------Skills----------------------*/
     .tituloS{
@@ -524,7 +532,7 @@ body{
 }
 
 .tituloF{
-    display: flex;
+    
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
